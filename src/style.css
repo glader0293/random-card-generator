@@ -1,5 +1,13 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: rgb(20, 164, 20);
+}
+.custom-box{
+    width: 320px;
+    height: 500px; 
+}
+.number-size{
+    font-size: 9rem;
+    
 }
