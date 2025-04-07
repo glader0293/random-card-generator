@@ -11,7 +11,7 @@ body{
     font-size: 11rem;
     
 }
-
+/*SPADE*/
 .spade{
     font-size: 130px; /* Adjust size */
     color: black; /* Color of the spade */
@@ -20,6 +20,47 @@ body{
 .flipped-spade {
     font-size: 130px; /* Adjust size */
     color: black; /* Color of the spade */
-    transform: scaleY(-1); /* Flip horizontally */
+    transform: scaleY(-1); /* Flip vertically */
+    display: inline-block;
+}
+/*HEART*/
+.heart{
+    font-size: 130px; /* Adjust size */
+    color: #C10000; /* Color of the spade */
+    display: inline-block;  
+}
+
+.flipped-heart {
+    font-size: 130px; /* Adjust size */
+    color: #C10000; /* Color of the spade */
+    transform: scaleY(-1); /* Flip vertically */
+    display: inline-block;
+}
+
+/*DIAMOND*/
+.diamond{
+    font-size: 130px; /* Adjust size */
+    color: #C10000; /* Color of the spade */
+    display: inline-block;  
+}
+
+.flipped-diamond {
+    font-size: 130px; /* Adjust size */
+    color: #C10000; /* Color of the spade */
+    transform: scaleY(-1); /* Flip vertically */
+    display: inline-block;
+}
+
+/*CLUB*/
+.club{
+    font-size: 130px; /* Adjust size */
+    color: black; /* Color of the spade */
+    display: inline-block;
+}
+
+.flipped-club {
+    font-size: 130px; /* Adjust size */
+    color: black; /* Color of the spade */
+    transform: scaleY(-1); /* Flip vertically */
     display: inline-block;
 }
