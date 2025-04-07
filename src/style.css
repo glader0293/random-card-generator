@@ -4,10 +4,22 @@ body{
     background: rgb(20, 164, 20);
 }
 .custom-box{
-    width: 320px;
-    height: 500px; 
+    width: 420px;
+    height: 630px; 
 }
 .number-size{
-    font-size: 9rem;
+    font-size: 11rem;
     
+}
+
+.spade{
+    font-size: 130px; /* Adjust size */
+    color: black; /* Color of the spade */
+    display: inline-block;
+}
+.flipped-spade {
+    font-size: 130px; /* Adjust size */
+    color: black; /* Color of the spade */
+    transform: scaleY(-1); /* Flip horizontally */
+    display: inline-block;
 }
