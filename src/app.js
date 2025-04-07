@@ -7,8 +7,8 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  let arrCards = ["A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"]
-	let randomNum = Math.floor(Math.random() * arrCards.length)
+  const arrCards = ["A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"]
+	const randomNum = Math.floor(Math.random() * arrCards.length)
   let newCard = arrCards[randomNum]
   
   let accessNumber = document.getElementById("number")
@@ -18,10 +18,8 @@ window.onload = function() {
   let randomSuit = Math.floor(Math.random() * suitRandom.length)
   let newSuit = suitRandom[randomSuit]
 
-  let accessIconLeft = document.getElementById("icon-left")
-  let accessIconRight = document.getElementById("icon-right")
-  let spanLeft =  accessIconLeft.querySelector("span")
-  let spanRight =  accessIconRight.querySelector("span")
+  let spanLeft =  document.getElementById("icon-left").querySelector("span")
+  let spanRight = document.getElementById("icon-right").querySelector("span")
 
     if(newSuit === 'spade'){
       spanLeft.classList.add("spade")
